@@ -29,27 +29,26 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 ---
 
 ## 📂 Folder Structure
-'''
-├── index.html # Main landing page
-├── about_us.html # About NGO and team
-├── contact_us.html # Contact form + Google Map
-├── children.html # Children initiatives
-├── elderly.html # Elderly care page
-├── nature.html # Environment projects
-├── fairy.html # Special causes
-├── pets.html # Animal welfare
-├── military.html # Military family support
-├── ocean.html # Marine life protection
-├── education.html # Education projects
-├── garden.html # Community gardens
+```bash
+├── index.html         # Main landing page
+├── about_us.html      # About NGO and team
+├── contact_us.html    # Contact form + Google Map
+├── children.html      # Children initiatives
+├── elderly.html       # Elderly care page
+├── nature.html        # Environment projects
+├── fairy.html         # Special causes
+├── pets.html          # Animal welfare
+├── military.html      # Military family support
+├── ocean.html         # Marine life protection
+├── education.html     # Education projects
+├── garden.html        # Community gardens
 │
-├── css/ # Stylesheets (if any)
-├── js/ # JavaScript files (if any)
-├── image/ # All images (logo, banners, project visuals)
-├── video/ # Videos (if included)
+├── css/               # Stylesheets (if any)
+├── js/                # JavaScript files (if any)
+├── image/             # All images (logo, banners, project visuals)
+├── video/             # Videos (if included)
 │
-└── README.md # Project documentation
-'''
+└── README.md          # Project documentation
 
 ## Future Enhancements
 - Backend integration for storing Contact Form responses.
@@ -81,3 +80,4 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 
 ### Donation  
 ![About Us](images/donation.png)
+
