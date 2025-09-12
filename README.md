@@ -29,22 +29,24 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 ---
 
 ## 📂 Folder Structure
-│── index.html # Main landing page
-│── about_us.html # About NGO and team
-│── contact_us.html # Contact form + Google Map
-│── children.html # Children initiatives
-│── elderly.html # Elderly care page
-│── nature.html # Environment projects
-│── fairy.html # Special causes
-│── pets.html # Animal welfare
-│── military.html # Military family support
-│── ocean.html # Marine life protection
-│── education.html # Education projects
-│── garden.html # Community gardens
-│── css/ # Stylesheets (if any)
-│── js/ # JavaScript files (if any)
-│── image/ # All images (logo, banners, project visuals)
-│── video/ # Videos (if included)
+├── index.html # Main landing page
+├── about_us.html # About NGO and team
+├── contact_us.html # Contact form + Google Map
+├── children.html # Children initiatives
+├── elderly.html # Elderly care page
+├── nature.html # Environment projects
+├── fairy.html # Special causes
+├── pets.html # Animal welfare
+├── military.html # Military family support
+├── ocean.html # Marine life protection
+├── education.html # Education projects
+├── garden.html # Community gardens
+│
+├── css/ # Stylesheets (if any)
+├── js/ # JavaScript files (if any)
+├── image/ # All images (logo, banners, project visuals)
+├── video/ # Videos (if included)
+│
 └── README.md # Project documentation
 
 ## Future Enhancements
@@ -60,20 +62,21 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 ## Screenshots  
 
 ### Home Page  
-![Home Page 1](image/screenshot_home1.png)  
+![Home Page 1](images/screenshot_home1.png)  
 ![Home Page 2](image/screenshot_home2.png)  
 ![Home Page 3](image/screenshot_home3.png)  
 
 
 ### Projects - Military Initiative  
-![Projects Page 1](image/screenshot_projects1.png)  
-![Projects Page 2](image/screenshot_projects2.png)  
+![Projects Page 1](images/screenshot_projects1.png)  
+![Projects Page 2](images/screenshot_projects2.png)  
 
 ### Contact Us  
-![Contact Us](image/screenshot_contact.png)  
+![Contact Us](images/screenshot_contact.png)  
 
 ### Login / Signup  
-![Login](image/screenshot_login.png)  
+![Login](images/screenshot_login.png)  
 
 ### Donation  
-![About Us](image/donation.png)
+![About Us](images/donation.png)
+
