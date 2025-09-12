@@ -29,6 +29,7 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 ---
 
 ## 📂 Folder Structure
+'''
 ├── index.html # Main landing page
 ├── about_us.html # About NGO and team
 ├── contact_us.html # Contact form + Google Map
@@ -48,6 +49,7 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 ├── video/ # Videos (if included)
 │
 └── README.md # Project documentation
+'''
 
 ## Future Enhancements
 - Backend integration for storing Contact Form responses.
@@ -79,4 +81,3 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 
 ### Donation  
 ![About Us](images/donation.png)
-
