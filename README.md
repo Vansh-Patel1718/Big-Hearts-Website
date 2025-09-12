@@ -49,6 +49,7 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 ├── video/             # Videos (if included)
 │
 └── README.md          # Project documentation
+```
 
 ## Future Enhancements
 - Backend integration for storing Contact Form responses.
@@ -80,4 +81,5 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 
 ### Donation  
 ![About Us](images/donation.png)
+
 
