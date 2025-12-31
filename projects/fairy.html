@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fairy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+  crossorigin="anonymous">  
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fafc;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    /* --- Donation Section --- */
+    .donation-section img {
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease-in-out;
+    }
+    .donation-section img:hover {
+      transform: scale(1.03);
+    }
+    .donation-content {
+      background: linear-gradient(135deg, #385170, #2c3e50);
+      padding: 30px;
+      color: #ececec;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      animation: fadeInUp 1s ease-in-out;
+    }
+    .donation-content h1 {
+      font-weight: 700;
+      color: #feb236;
+    }
+
+    /* --- Toggle buttons --- */
+    .toggle-link {
+      font-size: 18px;
+      margin: 0 10px;
+      color: #feb236;
+      cursor: pointer;
+      font-weight: 600;
+      border: none;
+      background: transparent;
+      transition: color 0.3s, transform 0.2s;
+    }
+    .toggle-link:hover {
+      color: #ffd27f;
+      transform: scale(1.1);
+    }
+    .toggle-section {
+      display: none;
+      margin-top: 15px;
+    }
+    .toggle-section.active {
+      display: block;
+      animation: fadeIn 0.7s ease-in-out;
+    }
+
+    /* --- Bottom Grid --- */
+    .bottom-item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .bottom-item:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .bottom-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .bottom-item p {
+      margin-top: 12px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #444;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(10px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar (kept as is) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../images/Bighearts.png" alt="Big Hearts Logo" style="width:70px;height:auto;border:2px solid #555;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" aria-controls="navbarNav" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-3">
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="../about_us.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="../contact.html">Contact Us</a></li>
+          </ul>
+          <a href="../donation.html" class="btn btn-primary rounded-pill px-4">Donate Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container py-5">
+    <div style="display: flex; gap: 20px; align-items: stretch; flex-wrap: wrap;">
+      <!-- Left image -->
+      <div style="flex: 1; display: flex;">
+          <img src="../images/fairy.jpg" 
+               alt="Donation" 
+               style="width: 100%; object-fit: cover; border-radius: 12px;">
+      </div>
+  
+  
+      <div class="col-lg-6 donation-content">
+        <h1 class="text-center mb-3"><i>Fairy – Giving Wings to Donations</i></h1>
+        <div class="text-center mb-3">
+          <button onclick="toggleSection('vision')" class="toggle-link">Vision</button>
+          <button onclick="toggleSection('mission')" class="toggle-link">Mission</button>
+          <button onclick="toggleSection('services')" class="toggle-link">Services</button>
+        </div>
+        
+        <div id="vision" class="toggle-section active">
+          <h4>Vision</h4>
+          <p>To build a world where acts of kindness reach every corner, empowering lives with hope and dignity.</p>
+        </div>
+        <div id="mission" class="toggle-section">
+          <h4>Mission</h4>
+          <p>To connect generous donors with those in need, ensuring resources bring happiness, health, and support where it matters most.</p>
+        </div>
+        <div id="services" class="toggle-section">
+          <h4>Services</h4>
+          <p>Fairy provides platforms for transparent donations, community outreach programs, healthcare assistance, and education for underprivileged groups.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Grid -->
+    <div class="row mt-5 text-center g-4">
+      <div class="col-md-3">
+        <div class="bottom-item">
+          <img src="../images/fariy2.jpeg" alt="Care">
+          <p>Spreading Smiles Through Giving</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="bottom-item">
+          <img src="../images/fairy3.webp" alt="Support">
+          <p>Connecting Donors with Hope</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="bottom-item">
+          <img src="../images/fairy4.jpg" alt="Health">
+          <p>Healthcare for the Needy</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="bottom-item">
+          <img src="../images/fairy5.jpg" alt="Education">
+          <p>Education – A Gift for Life</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+  crossorigin="anonymous"></script>
+
+  <script>
+    function toggleSection(sectionId) {
+      var sections = document.querySelectorAll('.toggle-section');
+      sections.forEach(sec => sec.classList.remove('active'));
+      document.getElementById(sectionId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
