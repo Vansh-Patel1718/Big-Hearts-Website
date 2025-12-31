@@ -28,28 +28,30 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 
 ---
 
-## 📂 Folder Structure
-'''
-├── index.html # Main landing page
-├── about_us.html # About NGO and team
-├── contact_us.html # Contact form + Google Map
-├── children.html # Children initiatives
-├── elderly.html # Elderly care page
-├── nature.html # Environment projects
-├── fairy.html # Special causes
-├── pets.html # Animal welfare
-├── military.html # Military family support
-├── ocean.html # Marine life protection
-├── education.html # Education projects
-├── garden.html # Community gardens
+## Folder Structure
+
+
+<pre>
+├── index.html 
+├── about_us.html 
+├── contact_us.html 
+├── children.html 
+├── elderly.html 
+├── nature.html 
+├── fairy.html  
+├── pets.html 
+├── military.html 
+├── ocean.html 
+├── education.html 
+├── garden.html 
 │
-├── css/ # Stylesheets (if any)
-├── js/ # JavaScript files (if any)
-├── image/ # All images (logo, banners, project visuals)
-├── video/ # Videos (if included)
+├── css/ 
+├── js/ 
+├── image/ 
+├── video/ 
 │
-└── README.md # Project documentation
-'''
+└── README.md 
+</pre>
 
 ## Future Enhancements
 - Backend integration for storing Contact Form responses.
@@ -65,8 +67,8 @@ The website provides easy navigation, dedicated project pages, and a fully funct
 
 ### Home Page  
 ![Home Page 1](images/screenshot_home1.png)  
-![Home Page 2](image/screenshot_home2.png)  
-![Home Page 3](image/screenshot_home3.png)  
+![Home Page 2](images/screenshot_home2.png)  
+![Home Page 3](images/screenshot_home3.png)  
 
 
 ### Projects - Military Initiative  
